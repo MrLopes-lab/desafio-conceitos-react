@@ -19,9 +19,6 @@ function App() {
       techs: ["NodeJs, React"]
     }); 
 
-    const VAR = 0;
-    VAR = 2;
-
     const repository = response.data;
 
     setRepositories([...repositories, repository]);
